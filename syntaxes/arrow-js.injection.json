@@ -1,0 +1,17 @@
+{
+  "scopeName": "arrow-js.injection",
+  "injectionSelector": [
+    "L:meta.var.expr"
+  ],
+  "patterns": [
+    {
+      "include": "#todo-keyword"
+    }
+  ],
+  "repository": {
+    "todo-keyword": {
+      "match": "html",
+      "name": "keyword.todo"
+    }
+  }
+}
